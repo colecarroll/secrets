@@ -1,0 +1,27 @@
+.logo {
+    border: 2px solid darkgoldenrod;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: darkslategray;
+    width: 27px;
+}
+
+.createAccount {
+    margin-right: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #F6F6F6;
+    padding: 10px 0px 10px 0px;
+}
