@@ -4,7 +4,8 @@
   "description": "full stack web app that users must log in and enter secrets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/colecarroll/secrets#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "hbs": "^4.0.1",
     "knex": "^0.13.0",
