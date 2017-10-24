@@ -1,9 +1,15 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .logo {
     border: 2px solid darkgoldenrod;
     padding: 5px 5px;
     margin: 5px 5px;
     color: darkslategray;
-    width: 27px;
+    width: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .createAccount {
@@ -15,8 +21,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}       
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around
 }
 
+.createAccount {
+    display: flex;
+    flex-direction: column;
+}
 
 a {
     text-decoration: none;
@@ -25,4 +42,8 @@ a {
 nav {
     background-color: #F6F6F6;
     padding: 10px 0px 10px 0px;
+}
+
+input, label, button {
+    margin: 5px 5px 5px 5px;
 }
